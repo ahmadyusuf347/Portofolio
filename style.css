@@ -12,12 +12,12 @@
 }
 
 .reset-link-color {
-  color: #94B4C1; /* Ganti dengan warna yang Anda inginkan */
+  color: #000000ff; /* Ganti dengan warna yang Anda inginkan */
   text-decoration: none; /* Hilangkan garis bawah */
 }
 
 .reset-link-color:hover {
-    color: #B13BFF; /* Warna saat dihover */
+    color: #7bcf04ff; /* Warna saat dihover */
 }
 .h1 {
     color: #000000ff;
