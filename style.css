@@ -1,10 +1,10 @@
 .body {
-    background-color: #471396;
+    background-color: #ffffffff;
 
 }
 
 .navbar {
-    background-color: #090040;
+    background-color: #ffffffff;
 }
 
 .container {
@@ -20,7 +20,34 @@
     color: #B13BFF; /* Warna saat dihover */
 }
 .h1 {
-    color: #94B4C1;
+    color: #000000ff;
     font-size: 60px;
     font-family: Bricolage-Grotesque, sans-serif;
 }
+
+//Footer
+.text-body-secondary
+Specificity: (0,1,0)
+ {
+    --bs-text-opacity: 1;
+    color: var(--bs-secondary-color) !important;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+.mb-2 {
+    margin-bottom: .5rem !important;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.d-inline-flex {
+    display: inline-flex !important;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+// end footer
